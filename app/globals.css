@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4efe4;
+  --foreground: #1c1917;
+  --card: #fffcf7;
+  --card-foreground: #1c1917;
+  --primary: #1c1917;
+  --primary-foreground: #f6f1e7;
+  --secondary: #efe6d6;
+  --secondary-foreground: #1c1917;
+  --muted: #efe6d6;
+  --muted-foreground: #57534e;
+  --accent: #f6e7d4;
+  --accent-foreground: #1c1917;
+  --border: #e4d9c8;
+  --input: #e4d9c8;
+  --ring: #c2410c;
+  --radius: 0.8rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --font-sans: "Noto Sans SC", "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-serif: "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", serif;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+}
+
+body {
+  background:
+    radial-gradient(900px 420px at 0% -10%, rgba(194, 65, 12, 0.12), transparent 55%),
+    radial-gradient(700px 380px at 100% 0%, rgba(15, 92, 69, 0.08), transparent 50%),
+    var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: #fdba74;
+  color: #1c1917;
+}

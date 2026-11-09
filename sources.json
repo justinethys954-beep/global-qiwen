@@ -1,0 +1,606 @@
+{
+  "regions": [
+    {
+      "id": "africa",
+      "nameZh": "非洲",
+      "hints": ["africa", "african", "nigeria", "nigerian", "lagos", "abuja", "kano", "ghana", "accra", "kenya", "nairobi", "mombasa", "south africa", "johannesburg", "cape town", "ethiopia", "addis ababa", "tanzania", "dar es salaam", "uganda", "kampala", "rwanda", "senegal", "dakar", "morocco", "cairo", "egypt", "somalia", "sudan", "congo", "kinshasa", "zimbabwe", "harare", "zambia", "lusaka", "botswana", "namibia", "mozambique", "angola", "cameroon", "mali", "malawi", "madagascar", "tunisia", "algeria", "libya", "gambia", "sierra leone", "liberia", "benin", "togo", "burkina", "niger republic", "chad", "somalia", "khartoum", "nairobi", "pretoria", "durban", "abuja", "ibadan", "enugu", "port harcourt"]
+    },
+    {
+      "id": "india",
+      "nameZh": "印度",
+      "hints": ["india", "indian", "delhi", "mumbai", "bombay", "bengaluru", "bangalore", "kolkata", "calcutta", "chennai", "hyderabad", "ahmedabad", "pune", "kerala", "rajasthan", "lucknow", "gujarat", "bihar", "odisha", "tamil nadu", "jaipur", "varanasi", "goa"]
+    },
+    {
+      "id": "philippines",
+      "nameZh": "菲律宾",
+      "hints": ["philippines", "philippine", "filipino", "filipina", "pinoy", "pinay", "manila", "quezon", "cebu", "davao", "mindanao", "luzon"]
+    },
+    {
+      "id": "pakistan",
+      "nameZh": "巴基斯坦",
+      "hints": ["pakistan", "pakistani", "karachi", "lahore", "islamabad", "rawalpindi", "peshawar", "quetta", "sindh", "balochistan", "khyber"]
+    },
+    {
+      "id": "tribe",
+      "nameZh": "部落",
+      "hints": ["tribe", "tribal", "tribes", "indigenous", "aboriginal", "aborigine", "uncontacted", "sentinelese", "north sentinel", "jarawa", "adivasi", "yanomami", "yanomamo", "maasai", "masai", "himba", "korowai", "papuan", "inuit", "maori", "ainu", "hadza", "bushmen", "andaman", "nicobar", "dongria", "mentawai", "asmat", "first nations", "native american", "amazon tribe", "remote tribe"]
+    },
+    {
+      "id": "other",
+      "nameZh": "其他",
+      "hints": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "bbc-africa",
+      "name": "BBC Africa",
+      "nameZh": "BBC 非洲",
+      "region": "africa",
+      "country": "AF",
+      "homepage": "https://www.bbc.com/news/world/africa",
+      "attempts": [
+        {"kind": "rss", "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml"}
+      ]
+    },
+    {
+      "id": "legit-ng",
+      "name": "Legit.ng",
+      "nameZh": "Legit.ng",
+      "region": "africa",
+      "country": "NG",
+      "homepage": "https://www.legit.ng/",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.legit.ng/rss"},
+        {"kind": "rss", "url": "https://legit.ng/rss"}
+      ]
+    },
+    {
+      "id": "linda-ikeji",
+      "name": "Linda Ikeji",
+      "nameZh": "Linda Ikeji",
+      "region": "africa",
+      "country": "NG",
+      "homepage": "https://www.lindaikejisblog.com/",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.lindaikejisblog.com/feeds/posts/default?alt=rss"},
+        {"kind": "rss", "url": "https://lindaikejisblog.com/feed"}
+      ]
+    },
+    {
+      "id": "punch-ng",
+      "name": "Punch",
+      "nameZh": "Punch 尼日利亚",
+      "region": "africa",
+      "country": "NG",
+      "homepage": "https://punchng.com/",
+      "attempts": [
+        {"kind": "rss", "url": "https://punchng.com/feed/"}
+      ]
+    },
+    {
+      "id": "premium-times",
+      "name": "Premium Times",
+      "nameZh": "Premium Times",
+      "region": "africa",
+      "country": "NG",
+      "homepage": "https://www.premiumtimesng.com/",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.premiumtimesng.com/feed"}
+      ]
+    },
+    {
+      "id": "vanguard-ng",
+      "name": "Vanguard",
+      "nameZh": "Vanguard",
+      "region": "africa",
+      "country": "NG",
+      "homepage": "https://www.vanguardngr.com/",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.vanguardngr.com/feed/"}
+      ]
+    },
+    {
+      "id": "news24",
+      "name": "News24",
+      "nameZh": "News24 南非",
+      "region": "africa",
+      "country": "ZA",
+      "homepage": "https://www.news24.com/",
+      "attempts": [
+        {"kind": "rss", "url": "https://feeds.news24.com/articles/news24/TopStories/rss"},
+        {"kind": "rss", "url": "https://www.news24.com/news24/rss"}
+      ]
+    },
+    {
+      "id": "nation-kenya",
+      "name": "Nation Africa",
+      "nameZh": "Nation 肯尼亚",
+      "region": "africa",
+      "country": "KE",
+      "homepage": "https://nation.africa/",
+      "attempts": [
+        {"kind": "rss", "url": "https://nation.africa/kenya/rss"},
+        {"kind": "rss", "url": "https://www.nation.africa/rss"}
+      ]
+    },
+    {
+      "id": "myjoyonline",
+      "name": "MyJoyOnline",
+      "nameZh": "MyJoyOnline 加纳",
+      "region": "africa",
+      "country": "GH",
+      "homepage": "https://www.myjoyonline.com/",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.myjoyonline.com/feed/"},
+        {"kind": "rss", "url": "https://www.ghanaweb.com/GhanaHomePage/rss/news.xml"}
+      ]
+    },
+    {
+      "id": "reddit-africa",
+      "name": "r/Africa",
+      "nameZh": "r/Africa",
+      "region": "africa",
+      "country": "AF",
+      "homepage": "https://www.reddit.com/r/Africa/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/Africa/.rss"}]
+    },
+    {
+      "id": "reddit-nigeria",
+      "name": "r/Nigeria",
+      "nameZh": "r/Nigeria",
+      "region": "africa",
+      "country": "NG",
+      "homepage": "https://www.reddit.com/r/Nigeria/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/Nigeria/.rss"}]
+    },
+    {
+      "id": "reddit-southafrica",
+      "name": "r/southafrica",
+      "nameZh": "r/southafrica",
+      "region": "africa",
+      "country": "ZA",
+      "homepage": "https://www.reddit.com/r/southafrica/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/southafrica/.rss"}]
+    },
+    {
+      "id": "reddit-kenya",
+      "name": "r/Kenya",
+      "nameZh": "r/Kenya",
+      "region": "africa",
+      "country": "KE",
+      "homepage": "https://www.reddit.com/r/Kenya/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/Kenya/.rss"}]
+    },
+    {
+      "id": "ndtv-offbeat",
+      "name": "NDTV Offbeat",
+      "nameZh": "NDTV 奇闻",
+      "region": "india",
+      "country": "IN",
+      "homepage": "https://www.ndtv.com/offbeat",
+      "attempts": [
+        {"kind": "ndtv-list", "url": "https://www.ndtv.com/offbeat"},
+        {"kind": "ndtv-list", "url": "https://www.ndtv.com/offbeat/page-2"}
+      ]
+    },
+    {
+      "id": "ht-trending",
+      "name": "Hindustan Times Trending",
+      "nameZh": "印度斯坦时报 · 热榜",
+      "region": "india",
+      "country": "IN",
+      "homepage": "https://www.hindustantimes.com/trending",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.hindustantimes.com/feeds/rss/trending/rssfeed.xml"}
+      ]
+    },
+    {
+      "id": "indiatoday-trending",
+      "name": "India Today Trending",
+      "nameZh": "India Today 热榜",
+      "region": "india",
+      "country": "IN",
+      "homepage": "https://www.indiatoday.in/trending-news",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.indiatoday.in/rss/home", "linkIncludes": "/trending-news/"},
+        {"kind": "jsonld-list", "url": "https://www.indiatoday.in/trending-news"}
+      ]
+    },
+    {
+      "id": "toi-viral",
+      "name": "Times of India Viral",
+      "nameZh": "印度时报 · 病毒新闻",
+      "region": "india",
+      "country": "IN",
+      "homepage": "https://timesofindia.indiatimes.com/viral-news",
+      "attempts": [
+        {"kind": "rss", "url": "https://timesofindia.indiatimes.com/rssfeeds/123378383.cms"},
+        {
+          "kind": "html-links",
+          "url": "https://timesofindia.indiatimes.com/viral-news",
+          "base": "https://timesofindia.indiatimes.com",
+          "linkPattern": "/viral-news/[^\"']+/articleshow/\\d+\\.cms"
+        }
+      ]
+    },
+    {
+      "id": "reddit-indiaspeaks",
+      "name": "r/IndiaSpeaks",
+      "nameZh": "r/IndiaSpeaks",
+      "region": "india",
+      "country": "IN",
+      "homepage": "https://www.reddit.com/r/IndiaSpeaks/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/IndiaSpeaks/.rss"}]
+    },
+    {
+      "id": "reddit-indiasocial",
+      "name": "r/indiasocial",
+      "nameZh": "r/indiasocial",
+      "region": "india",
+      "country": "IN",
+      "homepage": "https://www.reddit.com/r/indiasocial/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/indiasocial/.rss"}]
+    },
+    {
+      "id": "reddit-india",
+      "name": "r/india",
+      "nameZh": "r/india",
+      "region": "india",
+      "country": "IN",
+      "homepage": "https://www.reddit.com/r/india/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/india/.rss"}]
+    },
+    {
+      "id": "rappler",
+      "name": "Rappler",
+      "nameZh": "Rappler",
+      "region": "philippines",
+      "country": "PH",
+      "homepage": "https://www.rappler.com/",
+      "attempts": [{"kind": "rss", "url": "https://www.rappler.com/feed/"}]
+    },
+    {
+      "id": "inquirer",
+      "name": "Philippine Daily Inquirer",
+      "nameZh": "菲律宾每日询问者报",
+      "region": "philippines",
+      "country": "PH",
+      "homepage": "https://www.inquirer.net/",
+      "attempts": [
+        {"kind": "rss", "url": "https://newsinfo.inquirer.net/feed"},
+        {"kind": "rss", "url": "https://www.inquirer.net/feed"}
+      ]
+    },
+    {
+      "id": "gma-news",
+      "name": "GMA News",
+      "nameZh": "GMA News",
+      "region": "philippines",
+      "country": "PH",
+      "homepage": "https://www.gmanetwork.com/news/",
+      "attempts": [
+        {"kind": "rss", "url": "https://data.gmanetwork.com/gno/rss/news/feed.xml"},
+        {"kind": "rss", "url": "https://www.gmanetwork.com/news/rss/news/"}
+      ]
+    },
+    {
+      "id": "spot-ph",
+      "name": "Spot.ph",
+      "nameZh": "Spot.ph",
+      "region": "philippines",
+      "country": "PH",
+      "homepage": "https://www.spot.ph/",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.spot.ph/feed"},
+        {"kind": "rss", "url": "https://www.spot.ph/rss"}
+      ]
+    },
+    {
+      "id": "reddit-philippines",
+      "name": "r/Philippines",
+      "nameZh": "r/Philippines",
+      "region": "philippines",
+      "country": "PH",
+      "homepage": "https://www.reddit.com/r/Philippines/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/Philippines/.rss"}]
+    },
+    {
+      "id": "geo-amazing",
+      "name": "Geo Amazing",
+      "nameZh": "Geo 奇闻",
+      "region": "pakistan",
+      "country": "PK",
+      "homepage": "https://www.geo.tv/rss/1/7",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.geo.tv/rss/1/7"},
+        {"kind": "rss", "url": "https://feeds.feedburner.com/GeoAmazingAndInteresting-GeoTvNetwork"}
+      ]
+    },
+    {
+      "id": "dawn",
+      "name": "Dawn",
+      "nameZh": "Dawn",
+      "region": "pakistan",
+      "country": "PK",
+      "homepage": "https://www.dawn.com/",
+      "attempts": [{"kind": "rss", "url": "https://www.dawn.com/feeds/home"}]
+    },
+    {
+      "id": "tribune",
+      "name": "Express Tribune",
+      "nameZh": "论坛快报",
+      "region": "pakistan",
+      "country": "PK",
+      "homepage": "https://tribune.com.pk/",
+      "attempts": [
+        {"kind": "rss", "url": "https://tribune.com.pk/feed/latest"},
+        {"kind": "rss", "url": "https://tribune.com.pk/rss"},
+        {
+          "kind": "html-links",
+          "url": "https://tribune.com.pk/odd-news",
+          "base": "https://tribune.com.pk",
+          "linkPattern": "tribune\\.com\\.pk/story/\\d+"
+        }
+      ]
+    },
+    {
+      "id": "express-weird",
+      "name": "Express Weird",
+      "nameZh": "Express 怪闻",
+      "region": "pakistan",
+      "country": "PK",
+      "homepage": "https://www.express.pk/weirdnews/",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.express.pk/feed/"},
+        {
+          "kind": "html-links",
+          "url": "https://www.express.pk/weirdnews/",
+          "base": "https://www.express.pk",
+          "linkPattern": "/story/[^\"']+"
+        }
+      ]
+    },
+    {
+      "id": "ary",
+      "name": "ARY News",
+      "nameZh": "ARY News",
+      "region": "pakistan",
+      "country": "PK",
+      "homepage": "https://arynews.tv/",
+      "attempts": [{"kind": "rss", "url": "https://arynews.tv/feed/"}]
+    },
+    {
+      "id": "reddit-pakistan",
+      "name": "r/pakistan",
+      "nameZh": "r/pakistan",
+      "region": "pakistan",
+      "country": "PK",
+      "homepage": "https://www.reddit.com/r/pakistan/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/pakistan/.rss"}]
+    },
+    {
+      "id": "reddit-chutyapa",
+      "name": "r/Chutyapa",
+      "nameZh": "r/Chutyapa",
+      "region": "pakistan",
+      "country": "PK",
+      "homepage": "https://www.reddit.com/r/Chutyapa/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/Chutyapa/.rss"}]
+    },
+    {
+      "id": "guardian-indigenous",
+      "name": "The Guardian Indigenous",
+      "nameZh": "卫报 · 原住民",
+      "region": "tribe",
+      "country": "INT",
+      "homepage": "https://www.theguardian.com/world/indigenous-peoples",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.theguardian.com/world/indigenous-peoples/rss"}
+      ]
+    },
+    {
+      "id": "survival-international",
+      "name": "Survival International",
+      "nameZh": "Survival International",
+      "region": "tribe",
+      "country": "INT",
+      "homepage": "https://www.survivalinternational.org/news",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.survivalinternational.org/news/rss"},
+        {"kind": "rss", "url": "https://survivalinternational.org/feed"},
+        {
+          "kind": "html-links",
+          "url": "https://www.survivalinternational.org/news",
+          "base": "https://www.survivalinternational.org",
+          "linkPattern": "/news/\\d+"
+        }
+      ]
+    },
+    {
+      "id": "mongabay-indigenous",
+      "name": "Mongabay",
+      "nameZh": "Mongabay",
+      "region": "tribe",
+      "country": "INT",
+      "homepage": "https://news.mongabay.com/",
+      "attempts": [
+        {"kind": "rss", "url": "https://news.mongabay.com/feed/?s=indigenous"}
+      ]
+    },
+    {
+      "id": "ict-news",
+      "name": "ICT News",
+      "nameZh": "ICT 原住民新闻",
+      "region": "tribe",
+      "country": "US",
+      "homepage": "https://ictnews.org/",
+      "attempts": [
+        {"kind": "rss", "url": "https://ictnews.org/feed/"},
+        {"kind": "rss", "url": "https://indiancountrytoday.com/feed"}
+      ]
+    },
+    {
+      "id": "reddit-indiancountry",
+      "name": "r/IndianCountry",
+      "nameZh": "r/IndianCountry",
+      "region": "tribe",
+      "country": "US",
+      "homepage": "https://www.reddit.com/r/IndianCountry/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/IndianCountry/.rss"}]
+    },
+    {
+      "id": "reddit-anthropology",
+      "name": "r/Anthropology",
+      "nameZh": "r/Anthropology",
+      "region": "tribe",
+      "country": "INT",
+      "homepage": "https://www.reddit.com/r/Anthropology/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/Anthropology/.rss"}]
+    },
+    {
+      "id": "upi-odd",
+      "name": "UPI Odd News",
+      "nameZh": "UPI 奇闻",
+      "region": "other",
+      "country": "US",
+      "homepage": "https://www.upi.com/Odd_News/",
+      "attempts": [
+        {"kind": "rss", "url": "https://rss.upi.com/news/odd.rss"},
+        {"kind": "rss", "url": "https://www.upi.com/rss/Odd_News/"}
+      ]
+    },
+    {
+      "id": "oddity-central",
+      "name": "Oddity Central",
+      "nameZh": "Oddity Central",
+      "region": "other",
+      "country": "INT",
+      "homepage": "https://www.odditycentral.com/",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.odditycentral.com/feed"},
+        {"kind": "rss", "url": "https://odditycentral.com/feed"}
+      ]
+    },
+    {
+      "id": "huffpost-weird",
+      "name": "HuffPost Weird",
+      "nameZh": "HuffPost 怪闻",
+      "region": "other",
+      "country": "US",
+      "homepage": "https://www.huffpost.com/section/weird-news",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.huffpost.com/section/weird-news/feed"}
+      ]
+    },
+    {
+      "id": "reddit-nottheonion",
+      "name": "r/nottheonion",
+      "nameZh": "r/nottheonion",
+      "region": "other",
+      "country": "INT",
+      "homepage": "https://www.reddit.com/r/nottheonion/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/nottheonion/.rss"}]
+    },
+    {
+      "id": "reddit-weirdnews",
+      "name": "r/weirdnews",
+      "nameZh": "r/weirdnews",
+      "region": "other",
+      "country": "INT",
+      "homepage": "https://www.reddit.com/r/weirdnews/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/weirdnews/.rss"}]
+    },
+    {
+      "id": "reddit-floridaman",
+      "name": "r/FloridaMan",
+      "nameZh": "r/FloridaMan",
+      "region": "other",
+      "country": "US",
+      "homepage": "https://www.reddit.com/r/FloridaMan/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/FloridaMan/.rss"}]
+    },
+    {
+      "id": "mirror-weird",
+      "name": "The Mirror Weird",
+      "nameZh": "镜报怪闻",
+      "region": "other",
+      "country": "GB",
+      "homepage": "https://www.mirror.co.uk/news/weird-news/",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.mirror.co.uk/news/weird-news/rss.xml"}
+      ]
+    },
+    {
+      "id": "metro-weird",
+      "name": "Metro Weird",
+      "nameZh": "Metro 怪闻",
+      "region": "other",
+      "country": "GB",
+      "homepage": "https://metro.co.uk/news/weird",
+      "attempts": [
+        {"kind": "rss", "url": "https://metro.co.uk/news/weird/feed/"}
+      ]
+    },
+    {
+      "id": "reddit-casualuk",
+      "name": "r/CasualUK",
+      "nameZh": "r/CasualUK",
+      "region": "other",
+      "country": "GB",
+      "homepage": "https://www.reddit.com/r/CasualUK/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/CasualUK/.rss"}]
+    },
+    {
+      "id": "pedestrian",
+      "name": "Pedestrian",
+      "nameZh": "Pedestrian 澳洲",
+      "region": "other",
+      "country": "AU",
+      "homepage": "https://www.pedestrian.tv/",
+      "attempts": [{"kind": "rss", "url": "https://www.pedestrian.tv/feed/"}]
+    },
+    {
+      "id": "abc-australia",
+      "name": "ABC News",
+      "nameZh": "ABC 澳大利亚",
+      "region": "other",
+      "country": "AU",
+      "homepage": "https://www.abc.net.au/news",
+      "attempts": [
+        {"kind": "rss", "url": "https://www.abc.net.au/news/feed/51120/rss.xml"}
+      ]
+    },
+    {
+      "id": "reddit-australia",
+      "name": "r/australia",
+      "nameZh": "r/australia",
+      "region": "other",
+      "country": "AU",
+      "homepage": "https://www.reddit.com/r/australia/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/australia/.rss"}]
+    },
+    {
+      "id": "g1",
+      "name": "G1",
+      "nameZh": "G1 巴西",
+      "region": "other",
+      "country": "BR",
+      "homepage": "https://g1.globo.com/",
+      "attempts": [
+        {"kind": "rss", "url": "https://g1.globo.com/dynamo/pop-arte/rss2.xml"},
+        {"kind": "rss", "url": "https://g1.globo.com/rss/g1/"},
+        {"kind": "rss", "url": "https://g1.globo.com/dynamo/rss2.xml"}
+      ]
+    },
+    {
+      "id": "reddit-brasil",
+      "name": "r/brasil",
+      "nameZh": "r/brasil",
+      "region": "other",
+      "country": "BR",
+      "homepage": "https://www.reddit.com/r/brasil/",
+      "attempts": [{"kind": "rss", "url": "https://www.reddit.com/r/brasil/.rss"}]
+    }
+  ]
+}
