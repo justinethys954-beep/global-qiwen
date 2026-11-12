@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-11T11:07:04+08:00",
+  "generated_at": "2026-11-12T11:05:13+08:00",
   "timezone": "Asia/Shanghai",
   "window_days": 90,
-  "window_start": "2026-08-13",
-  "today": "2026-11-11",
-  "today_new_count": 0,
-  "lot_count": 4092,
+  "window_start": "2026-08-14",
+  "today": "2026-11-12",
+  "today_new_count": 1,
+  "lot_count": 4044,
   "houses": [
     {
       "id": "polyhk",
@@ -35,9 +35,9 @@
       "id": "sothebys",
       "name": "苏富比",
       "ok": true,
-      "lots": 288,
-      "sales": 6,
-      "note": "只抓目录 HTML，请求间隔遵守 Crawl-delay 15 秒，不调用 /bsp-api/。未登录时成交价为 ResultHidden 的留空，进行中的当前出价不写成交价。部门不是 Chinese Works of Art / Chinese Ceramics / Chinese Art 的专场不收入。 截断：HK1788 首屏 48/67；HK1791 首屏 48/108；HK1790 首屏 48/342；N12242 首屏 48/230；HK1789 首屏 48/88；L26155 首屏 48/202"
+      "lots": 240,
+      "sales": 5,
+      "note": "只抓目录 HTML，请求间隔遵守 Crawl-delay 15 秒，不调用 /bsp-api/。未登录时成交价为 ResultHidden 的留空，进行中的当前出价不写成交价。部门不是 Chinese Works of Art / Chinese Ceramics / Chinese Art 的专场不收入。 截断：HK1790 首屏 48/340；N12242 首屏 48/230；HK1789 首屏 48/88；HK1791 首屏 48/108；HK1788 首屏 48/67"
     },
     {
       "id": "guardian",
@@ -52,20 +52,6 @@
     {
       "house_id": "sothebys",
       "house": "苏富比",
-      "sale_code": "HK1788",
-      "sale_title": "A Selection of Song Ceramics from Private Collections | 香港私人收藏宋瓷選萃",
-      "sale_date": "2026-11-03",
-      "sale_end": "2026-11-11",
-      "sale_date_label": "2026-11-03 – 2026-11-11",
-      "sale_location": "Hong Kong",
-      "sale_url": "https://www.sothebys.com/en/buy/auction/2026/a-selection-of-song-ceramics-from-private-collections",
-      "lots": 48,
-      "upcoming": 39,
-      "sold": 9
-    },
-    {
-      "house_id": "sothebys",
-      "house": "苏富比",
       "sale_code": "HK1790",
       "sale_title": "Polychrome | 形色",
       "sale_date": "2026-11-03",
@@ -74,22 +60,8 @@
       "sale_location": "Hong Kong",
       "sale_url": "https://www.sothebys.com/en/buy/auction/2026/polychrome",
       "lots": 48,
-      "upcoming": 48,
-      "sold": 0
-    },
-    {
-      "house_id": "sothebys",
-      "house": "苏富比",
-      "sale_code": "HK1791",
-      "sale_title": "Ritual and Reality III | 天人之際 III",
-      "sale_date": "2026-11-03",
-      "sale_end": "2026-11-11",
-      "sale_date_label": "2026-11-03 – 2026-11-11",
-      "sale_location": "Hong Kong",
-      "sale_url": "https://www.sothebys.com/en/buy/auction/2026/ritual-and-reality-iii",
-      "lots": 48,
-      "upcoming": 48,
-      "sold": 0
+      "upcoming": 42,
+      "sold": 6
     },
     {
       "house_id": "polybj",
@@ -500,16 +472,30 @@
     {
       "house_id": "sothebys",
       "house": "苏富比",
-      "sale_code": "L26155",
-      "sale_title": "Chinese Art",
-      "sale_date": "2026-11-04",
-      "sale_end": "2026-11-04",
-      "sale_date_label": "2026-11-04",
-      "sale_location": "London",
-      "sale_url": "https://www.sothebys.com/en/buy/auction/2026/chinese-art-l26155",
+      "sale_code": "HK1788",
+      "sale_title": "A Selection of Song Ceramics from Private Collections | 香港私人收藏宋瓷選萃",
+      "sale_date": "2026-11-03",
+      "sale_end": "2026-11-11",
+      "sale_date_label": "2026-11-03 – 2026-11-11",
+      "sale_location": "Hong Kong",
+      "sale_url": "https://www.sothebys.com/en/buy/auction/2026/a-selection-of-song-ceramics-from-private-collections",
       "lots": 48,
       "upcoming": 0,
-      "sold": 0
+      "sold": 37
+    },
+    {
+      "house_id": "sothebys",
+      "house": "苏富比",
+      "sale_code": "HK1791",
+      "sale_title": "Ritual and Reality III | 天人之際 III",
+      "sale_date": "2026-11-03",
+      "sale_end": "2026-11-11",
+      "sale_date_label": "2026-11-03 – 2026-11-11",
+      "sale_location": "Hong Kong",
+      "sale_url": "https://www.sothebys.com/en/buy/auction/2026/ritual-and-reality-iii",
+      "lots": 48,
+      "upcoming": 0,
+      "sold": 40
     },
     {
       "house_id": "christies",
