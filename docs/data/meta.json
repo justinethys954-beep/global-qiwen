@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T11:05:13+08:00",
+  "generated_at": "2026-11-15T11:24:42+08:00",
   "timezone": "Asia/Shanghai",
   "window_days": 90,
-  "window_start": "2026-08-14",
-  "today": "2026-11-12",
-  "today_new_count": 1,
-  "lot_count": 4044,
+  "window_start": "2026-08-17",
+  "today": "2026-11-15",
+  "today_new_count": 70,
+  "lot_count": 4114,
   "houses": [
     {
       "id": "polyhk",
@@ -19,8 +19,8 @@
       "id": "polybj",
       "name": "北京保利",
       "ok": true,
-      "lots": 2913,
-      "sales": 19,
+      "lots": 2983,
+      "sales": 20,
       "note": "拍卖中心页面公开调用的 session/item 接口。只保留图录字段，不写入委托人、买家、证件、电话等字段。成交价用官网 dealPrice（页面标为成交价，通常高于 windPrice）。不把 windPrice 记成落槌价。币种取自公开 notice.currency。已结束专场只取最近 12 场符合品类的，更早的留到下一轮。"
     },
     {
@@ -37,7 +37,7 @@
       "ok": true,
       "lots": 240,
       "sales": 5,
-      "note": "只抓目录 HTML，请求间隔遵守 Crawl-delay 15 秒，不调用 /bsp-api/。未登录时成交价为 ResultHidden 的留空，进行中的当前出价不写成交价。部门不是 Chinese Works of Art / Chinese Ceramics / Chinese Art 的专场不收入。 截断：HK1790 首屏 48/340；N12242 首屏 48/230；HK1789 首屏 48/88；HK1791 首屏 48/108；HK1788 首屏 48/67"
+      "note": "只抓目录 HTML，请求间隔遵守 Crawl-delay 15 秒，不调用 /bsp-api/。未登录时成交价为 ResultHidden 的留空，进行中的当前出价不写成交价。部门不是 Chinese Works of Art / Chinese Ceramics / Chinese Art 的专场不收入。 截断：N12242 首屏 48/230；HK1789 首屏 48/88；HK1791 首屏 48/108；HK1788 首屏 48/67；HK1790 首屏 48/340"
     },
     {
       "id": "guardian",
@@ -50,104 +50,6 @@
   ],
   "sales": [
     {
-      "house_id": "sothebys",
-      "house": "苏富比",
-      "sale_code": "HK1790",
-      "sale_title": "Polychrome | 形色",
-      "sale_date": "2026-11-03",
-      "sale_end": "2026-11-12",
-      "sale_date_label": "2026-11-03 – 2026-11-12",
-      "sale_location": "Hong Kong",
-      "sale_url": "https://www.sothebys.com/en/buy/auction/2026/polychrome",
-      "lots": 48,
-      "upcoming": 42,
-      "sold": 6
-    },
-    {
-      "house_id": "polybj",
-      "house": "北京保利",
-      "sale_code": "4194905123622744064",
-      "sale_title": "同一藏家（一）",
-      "sale_date": "2026-11-14",
-      "sale_end": "2026-11-14",
-      "sale_date_label": "2026-11-14",
-      "sale_location": "北京市朝阳区北汽双井文创园E03A座",
-      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4194905123622744064",
-      "lots": 32,
-      "upcoming": 32,
-      "sold": 0
-    },
-    {
-      "house_id": "polybj",
-      "house": "北京保利",
-      "sale_code": "4193565849740636160",
-      "sale_title": "同一藏家（三）",
-      "sale_date": "2026-11-14",
-      "sale_end": "2026-11-14",
-      "sale_date_label": "2026-11-14",
-      "sale_location": "北京市朝阳区北汽双井文创园E03A座",
-      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4193565849740636160",
-      "lots": 52,
-      "upcoming": 52,
-      "sold": 0
-    },
-    {
-      "house_id": "polybj",
-      "house": "北京保利",
-      "sale_code": "4194265113366097920",
-      "sale_title": "同一藏家（二）",
-      "sale_date": "2026-11-14",
-      "sale_end": "2026-11-14",
-      "sale_date_label": "2026-11-14",
-      "sale_location": "北京市朝阳区北汽双井文创园E03A座",
-      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4194265113366097920",
-      "lots": 123,
-      "upcoming": 123,
-      "sold": 0
-    },
-    {
-      "house_id": "polybj",
-      "house": "北京保利",
-      "sale_code": "4193175312659378176",
-      "sale_title": "同一藏家（四）",
-      "sale_date": "2026-11-14",
-      "sale_end": "2026-11-14",
-      "sale_date_label": "2026-11-14",
-      "sale_location": "北京市朝阳区北汽双井文创园E03A座",
-      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4193175312659378176",
-      "lots": 33,
-      "upcoming": 33,
-      "sold": 0
-    },
-    {
-      "house_id": "polybj",
-      "house": "北京保利",
-      "sale_code": "4194650728414834688",
-      "sale_title": "津门静海邵氏藏瓷",
-      "sale_date": "2026-11-14",
-      "sale_end": "2026-11-14",
-      "sale_date_label": "2026-11-14",
-      "sale_location": "北京市朝阳区北汽双井文创园E03A座",
-      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4194650728414834688",
-      "lots": 109,
-      "upcoming": 109,
-      "sold": 0
-    },
-    {
-      "house_id": "polybj",
-      "house": "北京保利",
-      "sale_code": "4638019394927063040",
-      "sale_title": "瓷器·玉器·工藝品（一）",
-      "sale_date": "2026-11-14",
-      "sale_end": "2026-11-14",
-      "sale_date_label": "2026-11-14",
-      "sale_location": "北京市朝阳区北汽双井文创园 E03A 座",
-      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4638019394927063040",
-      "lots": 384,
-      "upcoming": 384,
-      "sold": 0
-    },
-    {
       "house_id": "polybj",
       "house": "北京保利",
       "sale_code": "4637708001208168448",
@@ -158,8 +60,8 @@
       "sale_location": "北京市朝阳区北汽双井文创园 E03A 座",
       "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4637708001208168448",
       "lots": 1378,
-      "upcoming": 1378,
-      "sold": 0
+      "upcoming": 1163,
+      "sold": 121
     },
     {
       "house_id": "polybj",
@@ -344,6 +246,20 @@
       "sold": 48
     },
     {
+      "house_id": "polybj",
+      "house": "北京保利",
+      "sale_code": "8401014068869066752",
+      "sale_title": "喜马拉雅-佛像、杂项专场",
+      "sale_date": "2026-09-27",
+      "sale_end": "2026-09-27",
+      "sale_date_label": "2026-09-27",
+      "sale_location": "保利拍卖APP",
+      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=8401014068869066752",
+      "lots": 70,
+      "upcoming": 0,
+      "sold": 41
+    },
+    {
       "house_id": "polyhk",
       "house": "保利香港",
       "sale_code": "HKF3326-1",
@@ -486,6 +402,20 @@
     {
       "house_id": "sothebys",
       "house": "苏富比",
+      "sale_code": "HK1790",
+      "sale_title": "Polychrome | 形色",
+      "sale_date": "2026-11-03",
+      "sale_end": "2026-11-12",
+      "sale_date_label": "2026-11-03 – 2026-11-12",
+      "sale_location": "Hong Kong",
+      "sale_url": "https://www.sothebys.com/en/buy/auction/2026/polychrome",
+      "lots": 48,
+      "upcoming": 0,
+      "sold": 34
+    },
+    {
+      "house_id": "sothebys",
+      "house": "苏富比",
       "sale_code": "HK1791",
       "sale_title": "Ritual and Reality III | 天人之際 III",
       "sale_date": "2026-11-03",
@@ -510,6 +440,90 @@
       "lots": 121,
       "upcoming": 0,
       "sold": 78
+    },
+    {
+      "house_id": "polybj",
+      "house": "北京保利",
+      "sale_code": "4194905123622744064",
+      "sale_title": "同一藏家（一）",
+      "sale_date": "2026-11-14",
+      "sale_end": "2026-11-14",
+      "sale_date_label": "2026-11-14",
+      "sale_location": "北京市朝阳区北汽双井文创园E03A座",
+      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4194905123622744064",
+      "lots": 32,
+      "upcoming": 0,
+      "sold": 32
+    },
+    {
+      "house_id": "polybj",
+      "house": "北京保利",
+      "sale_code": "4193565849740636160",
+      "sale_title": "同一藏家（三）",
+      "sale_date": "2026-11-14",
+      "sale_end": "2026-11-14",
+      "sale_date_label": "2026-11-14",
+      "sale_location": "北京市朝阳区北汽双井文创园E03A座",
+      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4193565849740636160",
+      "lots": 52,
+      "upcoming": 0,
+      "sold": 1
+    },
+    {
+      "house_id": "polybj",
+      "house": "北京保利",
+      "sale_code": "4194265113366097920",
+      "sale_title": "同一藏家（二）",
+      "sale_date": "2026-11-14",
+      "sale_end": "2026-11-14",
+      "sale_date_label": "2026-11-14",
+      "sale_location": "北京市朝阳区北汽双井文创园E03A座",
+      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4194265113366097920",
+      "lots": 123,
+      "upcoming": 0,
+      "sold": 71
+    },
+    {
+      "house_id": "polybj",
+      "house": "北京保利",
+      "sale_code": "4193175312659378176",
+      "sale_title": "同一藏家（四）",
+      "sale_date": "2026-11-14",
+      "sale_end": "2026-11-14",
+      "sale_date_label": "2026-11-14",
+      "sale_location": "北京市朝阳区北汽双井文创园E03A座",
+      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4193175312659378176",
+      "lots": 33,
+      "upcoming": 0,
+      "sold": 1
+    },
+    {
+      "house_id": "polybj",
+      "house": "北京保利",
+      "sale_code": "4194650728414834688",
+      "sale_title": "津门静海邵氏藏瓷",
+      "sale_date": "2026-11-14",
+      "sale_end": "2026-11-14",
+      "sale_date_label": "2026-11-14",
+      "sale_location": "北京市朝阳区北汽双井文创园E03A座",
+      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4194650728414834688",
+      "lots": 109,
+      "upcoming": 0,
+      "sold": 60
+    },
+    {
+      "house_id": "polybj",
+      "house": "北京保利",
+      "sale_code": "4638019394927063040",
+      "sale_title": "瓷器·玉器·工藝品（一）",
+      "sale_date": "2026-11-14",
+      "sale_end": "2026-11-14",
+      "sale_date_label": "2026-11-14",
+      "sale_location": "北京市朝阳区北汽双井文创园 E03A 座",
+      "sale_url": "https://www.polypm.com.cn/auction/auction_list.html?oldData=false&infoId=4638019394927063040",
+      "lots": 384,
+      "upcoming": 0,
+      "sold": 295
     }
   ]
 }
